@@ -1,6 +1,6 @@
 #####################################
 
-#Loan calculator 
+#Loan calculator (Corrected the formula for this program)
 
 #Declare variables based on user input
 loanAmount = float(input("Please enter your loan amount: "))
