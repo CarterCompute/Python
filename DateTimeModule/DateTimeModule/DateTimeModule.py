@@ -21,3 +21,7 @@ print(currentDate.strftime("Please attend our event %A, %B %d, %Y"))
 
 
 #For dealing with different languages visit http://babel.pocoo.org
+
+userInput = input("Please enter your birthday: ")
+birthday = datetime.datetime.strptime(userInput, '%m/%d/%Y')
+print(birthday)
